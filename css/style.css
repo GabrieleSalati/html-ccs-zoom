@@ -27,7 +27,7 @@ body {
 /* Utilities */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
 }
@@ -68,13 +68,24 @@ body {
 
 .main-row {
     height: 130px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
 }
 
 .box {
     height: 130px;
-    width: 165px;
+    width: 190px;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 5px;
+    font-size: 12px;
 }
 
 /* Footer style */
