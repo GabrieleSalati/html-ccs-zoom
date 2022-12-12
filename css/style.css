@@ -43,7 +43,6 @@ body {
     text-align: right;
     height: 50px;
     line-height: 40px;
-    margin: 0 100px;
 }
 
 #speaker {
@@ -67,40 +66,57 @@ body {
 /* Main style */
 
 .main-row {
-    height: 100px;
+    height: 130px;
     justify-content: space-between;
     margin-top: 10px;
 }
 
 .box {
-    height: 100px;
+    height: 130px;
     width: 165px;
-    background-color: aqua;
 }
 
 /* Footer style */
 
 .bar {
-    height: 50px;
+    height: 70px;
     background-color: lightgray;
-    margin-top: 100px;
     justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
 }
 
 .botbox-left {
     flex-basis: 20%;
     background-color: brown;
     border: 2px dashed white;
+    display: flex;
 }
 
 .botbox-mid {
     flex-basis: 60%;
     background-color: brown;
     border: 2px dashed white;
+    display: flex;
+    justify-content: center;
 }
 
 .botbox-right {
     flex-basis: 20%;
     background-color: brown;
     border: 2px dashed white;
+    display: flex;
+    justify-content: right;
 }
+
+.bot-icon {
+    color: white;
+}
+
+.options {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
