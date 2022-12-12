@@ -35,3 +35,47 @@ body {
     clear: both;
     display: table;
 }
+
+/* General */
+
+.viewsettings {
+    text-align: right;
+    height: 50px;
+    line-height: 40px;
+}
+
+#speaker {
+    color: white;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.top-icon {
+    color: white;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: grey;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+/* Main style */
+
+main {
+    background-color: black;
+}
+
+.main-row {
+    height: 100px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 165px;
+    background-color: aqua;
+}
