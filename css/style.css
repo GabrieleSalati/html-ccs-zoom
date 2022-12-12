@@ -21,6 +21,7 @@ picture {
 body {
     min-height: 100vh;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Utilities */
@@ -50,7 +51,7 @@ body {
     vertical-align: middle;
     padding: 5px;
     background-color: grey;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 5px;
 }
 
@@ -59,7 +60,7 @@ body {
     vertical-align: middle;
     padding: 5px;
     background-color: grey;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-right: 5px;
 }
 
@@ -88,29 +89,27 @@ body {
 
 .botbox-left {
     flex-basis: 20%;
-    background-color: brown;
-    border: 2px dashed white;
+    background-color: #222222;
     display: flex;
 }
 
 .botbox-mid {
     flex-basis: 60%;
-    background-color: brown;
-    border: 2px dashed white;
+    background-color: #222222;
     display: flex;
     justify-content: center;
 }
 
 .botbox-right {
     flex-basis: 20%;
-    background-color: brown;
-    border: 2px dashed white;
     display: flex;
     justify-content: right;
+    background-color: #222222;
 }
 
 .bot-icon {
     color: white;
+    font-size: 25px;
 }
 
 .options {
@@ -118,5 +117,32 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    margin: 0 10px;
 }
+
+p {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.chevron {
+    color: white;
+    font-size: 10px;
+}
+
+#share {
+    color: #4BC800;
+}
+
+#end {
+    color: red;
+}
+
+.end-button {
+    height: 70px;
+    width: 100px;
+    background-color: #4A4A4A;
+}
+
 
